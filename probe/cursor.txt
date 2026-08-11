@@ -1,0 +1,71 @@
+--- 140368150  (aChrSelect__advanceCursorToNextSelectableChar)
+  140368155  E8 56 99 C9 FF               CALL 0x140001ab0
+  14036815a  44 8B C6                     MOV R8D,ESI
+  14036815d  33 D2                        XOR EDX,EDX
+  14036815f  48 8B C8                     MOV RCX,RAX
+  140368162  E8 19 96 EE FF               CALL 0x140251780
+  140368167  8B F8                        MOV EDI,EAX
+  140368169  E8 92 C5 C9 FF               CALL 0x140004700
+  14036816e  44 8B C6                     MOV R8D,ESI
+  140368171  48 8B C8                     MOV RCX,RAX
+  140368174  33 D2                        XOR EDX,EDX
+  140368176  E8 65 49 EE FF               CALL 0x14024cae0
+  14036817b  3B F8                        CMP EDI,EAX
+  14036817d  0F 85 B1 00 00 00            JNZ 0x140368234
+  140368183  E8 28 99 C9 FF               CALL 0x140001ab0
+  140368188  44 8B C6                     MOV R8D,ESI
+  14036818b  33 D2                        XOR EDX,EDX
+  14036818d  48 8B C8                     MOV RCX,RAX
+  140368190  E8 7B 95 EE FF               CALL 0x140251710
+  140368195  8B F8                        MOV EDI,EAX
+  140368197  E8 64 C5 C9 FF               CALL 0x140004700
+  14036819c  44 8B C6                     MOV R8D,ESI
+  14036819f  48 8B C8                     MOV RCX,RAX
+  1403681a2  33 D2                        XOR EDX,EDX
+  1403681a4  E8 B7 48 EE FF               CALL 0x14024ca60
+  1403681a9  3B F8                        CMP EDI,EAX
+  1403681ab  0F 85 83 00 00 00            JNZ 0x140368234
+  1403681b1  FF C6                        INC ESI
+  1403681b3  41 3B F6                     CMP ESI,R14D
+  1403681b6  0F 8E 6B FF FF FF            JLE 0x140368127
+  1403681bc  E8 EF 98 C9 FF               CALL 0x140001ab0
+  1403681c1  45 8B C7                     MOV R8D,R15D
+  1403681c4  33 D2                        XOR EDX,EDX
+  1403681c6  48 8B C8                     MOV RCX,RAX
+  1403681c9  E8 22 96 EE FF               CALL 0x1402517f0
+  1403681ce  8B C8                        MOV ECX,EAX
+  1403681d0  E8 7B 9D FF FF               CALL 0x140361f50
+  1403681d5  8B D8                        MOV EBX,EAX
+  1403681d7  41 BF 1D 00 00 00            MOV R15D,0x1d
+  1403681dd  0F 1F 00                     NOP dword ptr [RAX]
+  1403681e0  8B C3                        MOV EAX,EBX
+  1403681e2  99                           CDQ
+  1403681e3  83 E2 07                     AND EDX,0x7
+  1403681e6  03 C2                        ADD EAX,EDX
+  1403681e8  8B C8                        MOV ECX,EAX
+  1403681ea  83 E0 07                     AND EAX,0x7
+  1403681ed  2B C2                        SUB EAX,EDX
+  1403681ef  C1 F9 03                     SAR ECX,0x3
+  1403681f2  8D 0C C8                     LEA ECX,[RAX + RCX*0x8]
+  1403681f5  E8 A6 9D FF FF               CALL 0x140361fa0
+  1403681fa  8B F8                        MOV EDI,EAX
+  1403681fc  E8 FF C4 C9 FF               CALL 0x140004700
+  140368201  41 83 C9 FF                  OR R9D,0xffffffff
+  140368205  44 8B C7                     MOV R8D,EDI
+  140368208  8B D5                        MOV EDX,EBP
+  14036820a  48 8B C8                     MOV RCX,RAX
+  14036820d  C7 44 24 20 FF FF FF FF      MOV dword ptr [RSP + 0x20],0xffffffff
+  140368215  E8 D6 51 EE FF               CALL 0x14024d3f0
+  14036821a  84 C0                        TEST AL,AL
+  14036821c  75 04                        JNZ 0x140368222
+  14036821e  85 FF                        TEST EDI,EDI
+  140368220  75 36                        JNZ 0x140368258
+  140368222  85 DB                        TEST EBX,EBX
+  140368224  74 05                        JZ 0x14036822b
+  140368226  83 FB 37                     CMP EBX,0x37
+  140368229  75 15                        JNZ 0x140368240
+  14036822b  85 ED                        TEST EBP,EBP
+  14036822d  75 0A                        JNZ 0x140368239
+  14036822f  8D 5D 1A                     LEA EBX,[RBP + 0x1a]
+  140368232  EB 0C                        JMP 0x140368240
+  140368234  45 32 E4                     XOR R12B,R12B

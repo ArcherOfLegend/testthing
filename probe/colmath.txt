@@ -1,0 +1,88 @@
+1403600b2  48 83 C3 08                ADD RBX,0x8                      uChrUvOffset__ctor
+14036079f  48 8D 2C C1                LEA RBP,[RCX + RAX*0x8]          uChrUvOffset__createProperty_360760
+1403607d6  48 83 C5 08                ADD RBP,0x8                      uChrUvOffset__createProperty_360760
+140360b39  49 83 C7 08                ADD R15,0x8                      ?
+140360f03  C1 EA 04                   SHR EDX,0x4                      FUN_140360da0
+140361f65  48 C1 EA 03                SHR RDX,0x3                      aChrSelect__findCharSlotIndex_61F50
+140361f69  41 83 E0 07                AND R8D,0x7                      aChrSelect__findCharSlotIndex_61F50
+140361f6d  49 8D 14 D0                LEA RDX,[R8 + RDX*0x8]           aChrSelect__findCharSlotIndex_61F50
+140361faa  83 E2 07                   AND EDX,0x7                      aChrSelect__charIndexToRowCol
+140361fb1  83 E0 07                   AND EAX,0x7                      aChrSelect__charIndexToRowCol
+140361fb4  C1 F9 03                   SAR ECX,0x3                      aChrSelect__charIndexToRowCol
+140361fec  4C 8D 0C F7                LEA R9,[RDI + RSI*0x8]           FUN_140361fd0
+14036234c  48 83 C3 08                ADD RBX,0x8                      ?
+14036238e  48 83 C3 08                ADD RBX,0x8                      ?
+14036257c  48 83 C3 08                ADD RBX,0x8                      ?
+140362656  48 83 C3 08                ADD RBX,0x8                      uMenuChrSel__move
+140362686  48 83 C3 08                ADD RBX,0x8                      uMenuChrSel__move
+14036280c  48 83 C3 08                ADD RBX,0x8                      uMenuChrSel__move
+140362878  49 83 C6 08                ADD R14,0x8                      uMenuChrSel__move
+1403628e2  49 83 C7 08                ADD R15,0x8                      uMenuChrSel__move
+140362a4b  48 83 C6 08                ADD RSI,0x8                      uMenuChrSel__move
+140363b3f  48 83 C3 08                ADD RBX,0x8                      aChrSelect__state17_selectionDone
+140363fee  48 8D 04 ED 00 00 00 00    LEA RAX,[RBP*0x8]                aChrSelect__state14_enterStageSelect
+140364761  48 83 C7 08                ADD RDI,0x8                      aChrSelect__processStageSelect
+14036495f  48 83 C6 08                ADD RSI,0x8                      aChrSelect__processStageSelect
+140364b52  83 E8 10                   SUB EAX,0x10                     aChrSelect__state16_stageSelectConfirm
+140365919  4B 8D 04 FF                LEA RAX,[R15 + R15*0x8]          ?
+140365952  4B 8D 04 FF                LEA RAX,[R15 + R15*0x8]          ?
+14036598e  4B 8D 04 FF                LEA RAX,[R15 + R15*0x8]          ?
+140365b6e  4B 8D 04 FF                LEA RAX,[R15 + R15*0x8]          aChrSelect__slotState246_processSelection
+140365b9d  4B 8D 04 FF                LEA RAX,[R15 + R15*0x8]          aChrSelect__slotState246_processSelection
+140365bb9  4B 8D 04 FF                LEA RAX,[R15 + R15*0x8]          aChrSelect__slotState246_processSelection
+140365be6  4B 8D 04 FF                LEA RAX,[R15 + R15*0x8]          aChrSelect__slotState246_processSelection
+140365bfb  4B 8D 0C FF                LEA RCX,[R15 + R15*0x8]          aChrSelect__slotState246_processSelection
+140365c03  48 8D 04 C0                LEA RAX,[RAX + RAX*0x8]          aChrSelect__slotState246_processSelection
+140365c27  4B 8D 1C FF                LEA RBX,[R15 + R15*0x8]          aChrSelect__slotState246_processSelection
+140366547  48 83 C3 08                ADD RBX,0x8                      ?
+140366dc8  48 83 C3 10                ADD RBX,0x10                     ?
+1403675ac  48 83 C3 08                ADD RBX,0x8                      aChrSelect__waitStatusThenEnterStage_3674F0
+140367624  48 83 C3 08                ADD RBX,0x8                      aChrSelect__postSelectAdvance_3675F0
+140367839  48 83 C6 08                ADD RSI,0x8                      aChrSelect__postSelectAdvance_3675F0
+140367c7f  48 83 C3 08                ADD RBX,0x8                      ?
+1403681e3  83 E2 07                   AND EDX,0x7                      aChrSelect__advanceCursorToNextSelectableChar
+1403681ea  83 E0 07                   AND EAX,0x7                      aChrSelect__advanceCursorToNextSelectableChar
+1403681ef  C1 F9 03                   SAR ECX,0x3                      aChrSelect__advanceCursorToNextSelectableChar
+1403681f2  8D 0C C8                   LEA ECX,[RAX + RCX*0x8]          aChrSelect__advanceCursorToNextSelectableChar
+1403685ec  49 83 C6 08                ADD R14,0x8                      aChrSelect__tickSlotStateMachine
+1403687af  48 83 C3 08                ADD RBX,0x8                      aChrSelect__advanceStageLoad_3686D0
+1403687d5  49 8D 3C FE                LEA RDI,[R14 + RDI*0x8]          aChrSelect__advanceStageLoad_3686D0
+140369002  49 8D 3C D6                LEA RDI,[R14 + RDX*0x8]          aChrSelect__commitCharSelectionForSlot
+140369228  48 83 C3 08                ADD RBX,0x8                      uMenuChrSel__setup
+140369344  48 83 C6 08                ADD RSI,0x8                      uMenuChrSel__setup
+1403696bb  48 83 C7 08                ADD RDI,0x8                      ?
+14036aa9c  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelAssist_vfn18
+14036aadb  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelAssist_vfn18
+14036acbc  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelAssist__kill
+14036c01f  49 83 C4 08                ADD R12,0x8                      ?
+14036c589  48 83 C1 08                ADD RCX,0x8                      FUN_14036c580
+14036c730  48 83 C1 08                ADD RCX,0x8                      FUN_14036c730
+14036c7b0  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelBgMain__dtor_1
+14036c7da  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelBgMain__dtor_1
+14036c91d  C0 E8 04                   SHR AL,0x4                       uMenuChrSelBgMain_vfn18
+14036d5f4  48 83 C3 08                ADD RBX,0x8                      ?
+14036d673  83 E2 07                   AND EDX,0x7                      aChrSelect__remapSlotIndexCircular
+14036d676  41 C1 E8 03                SHR R8D,0x3                      aChrSelect__remapSlotIndexCircular
+14036d6e2  80 E2 07                   AND DL,0x7                       FUN_14036d6e0
+14036d760  48 8D 04 D1                LEA RAX,[RCX + RDX*0x8]          FUN_14036d750
+14036d780  48 8D 04 D1                LEA RAX,[RCX + RDX*0x8]          FUN_14036d770
+14036dc4d  49 83 C4 08                ADD R12,0x8                      FUN_14036d790
+14036dea0  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelBgMain__move
+14036e2be  48 83 C6 08                ADD RSI,0x8                      uMenuChrSelBgMain_vfn17
+14036e4c5  49 83 C4 08                ADD R12,0x8                      ?
+14036eaa3  48 83 C6 08                ADD RSI,0x8                      uMenuChrSelBgMain__setup
+14036ede6  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelCardPlayer__dtor_1
+14036ee06  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelCardPlayer__dtor_1
+14036ee33  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelCardPlayer__dtor_1
+14036ee6a  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelCardPlayer__dtor_1
+14036efe4  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelCardPlayer_vfn18
+14036f000  C0 E8 04                   SHR AL,0x4                       uMenuChrSelCardPlayer_vfn18
+14036fe4e  83 E9 08                   SUB ECX,0x8                      uMenuChrSelCardPlayer_vfn28
+14037093c  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelCardPlayer__kill
+1403709b3  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelCardPlayer__move
+140370de7  48 8D 1C EE                LEA RBX,[RSI + RBP*0x8]          FUN_140370db0
+14037143f  49 83 C7 08                ADD R15,0x8                      uMenuChrSelCardPlayer_vfn29
+140371443  48 83 C6 10                ADD RSI,0x10                     uMenuChrSelCardPlayer_vfn29
+140371790  48 83 C6 08                ADD RSI,0x8                      uMenuChrSelCardPlayer__setup
+140371aa4  48 83 C3 08                ADD RBX,0x8                      uMenuChrSelCardPlayer__setup
+140371acf  48 83 C3 10                ADD RBX,0x10                     uMenuChrSelCardPlayer__setup

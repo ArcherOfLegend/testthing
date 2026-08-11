@@ -1,0 +1,59 @@
+--- 140361FA0  (aChrSelect__charIndexToRowCol)
+  140361fa0  85 C9                        TEST ECX,ECX
+  140361fa2  79 03                        JNS 0x140361fa7
+  140361fa4  33 C0                        XOR EAX,EAX
+  140361fa6  C3                           RET
+  140361fa7  8B C1                        MOV EAX,ECX
+  140361fa9  99                           CDQ
+  140361faa  83 E2 07                     AND EDX,0x7
+  140361fad  03 C2                        ADD EAX,EDX
+  140361faf  8B C8                        MOV ECX,EAX
+  140361fb1  83 E0 07                     AND EAX,0x7
+  140361fb4  C1 F9 03                     SAR ECX,0x3
+  140361fb7  2B C2                        SUB EAX,EDX
+  140361fb9  8B D1                        MOV EDX,ECX
+  140361fbb  8B C8                        MOV ECX,EAX
+  140361fbd  E9 0E 00 00 00               JMP 0x140361fd0
+  140361fd0  48 89 5C 24 08               MOV qword ptr [RSP + 0x8],RBX
+  140361fd5  48 89 74 24 10               MOV qword ptr [RSP + 0x10],RSI
+  140361fda  57                           PUSH RDI
+  140361fdb  48 83 EC 20                  SUB RSP,0x20
+  140361fdf  48 63 F2                     MOVSXD RSI,EDX
+  140361fe2  48 63 F9                     MOVSXD RDI,ECX
+  140361fe5  48 8D 05 94 C5 7D 00         LEA RAX,[0x140b3e580]
+--- 140361FD0  (FUN_140361fd0)
+  140361fd0  48 89 5C 24 08               MOV qword ptr [RSP + 0x8],RBX
+  140361fd5  48 89 74 24 10               MOV qword ptr [RSP + 0x10],RSI
+  140361fda  57                           PUSH RDI
+  140361fdb  48 83 EC 20                  SUB RSP,0x20
+  140361fdf  48 63 F2                     MOVSXD RSI,EDX
+  140361fe2  48 63 F9                     MOVSXD RDI,ECX
+  140361fe5  48 8D 05 94 C5 7D 00         LEA RAX,[0x140b3e580]
+  140361fec  4C 8D 0C F7                  LEA R9,[RDI + RSI*0x8]
+  140361ff0  42 8B 1C 88                  MOV EBX,dword ptr [RAX + R9*0x4]
+  140361ff4  44 8D 43 CC                  LEA R8D,[RBX + -0x34]
+  140361ff8  41 83 F8 02                  CMP R8D,0x2
+  140361ffc  76 61                        JBE 0x14036205f
+--- 14036E0A2  (uMenuChrSelBgMain_vfn17)
+  14036e0a2  4D 85 E4                     TEST R12,R12
+  14036e0a5  75 07                        JNZ 0x14036e0ae
+  14036e0a7  83 C8 FF                     OR EAX,0xffffffff
+  14036e0aa  2B C1                        SUB EAX,ECX
+  14036e0ac  EB 02                        JMP 0x14036e0b0
+  14036e0ae  8B C1                        MOV EAX,ECX
+  14036e0b0  6B C9 07                     IMUL ECX,ECX,0x7
+  14036e0b3  8B D6                        MOV EDX,ESI
+  14036e0b5  2B D1                        SUB EDX,ECX
+  14036e0b7  8D 48 04                     LEA ECX,[RAX + 0x4]
+  14036e0ba  E8 11 3F FF FF               CALL 0x140361fd0
+  14036e0bf  8B D0                        MOV EDX,EAX
+  14036e0c1  85 C0                        TEST EAX,EAX
+  14036e0c3  0F 84 81 00 00 00            JZ 0x14036e14a
+  14036e0c9  83 EA 34                     SUB EDX,0x34
+  14036e0cc  74 7C                        JZ 0x14036e14a
+  14036e0ce  FF CA                        DEC EDX
+  14036e0d0  74 50                        JZ 0x14036e122
+  14036e0d2  FF CA                        DEC EDX
+  14036e0d4  74 26                        JZ 0x14036e0fc
+  14036e0d6  FF CA                        DEC EDX
+  14036e0d8  74 70                        JZ 0x14036e14a

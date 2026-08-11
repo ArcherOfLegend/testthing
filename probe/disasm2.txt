@@ -1,0 +1,58 @@
+--- 14036E08C  (uMenuChrSelBgMain_vfn17)
+  14036e090  B8 25 49 92 24               MOV EAX,0x24924925
+  14036e095  8B CE                        MOV ECX,ESI
+  14036e097  F7 E6                        MUL ESI
+  14036e099  2B CA                        SUB ECX,EDX
+  14036e09b  D1 E9                        SHR ECX,0x1
+  14036e09d  03 CA                        ADD ECX,EDX
+  14036e09f  C1 E9 02                     SHR ECX,0x2
+  14036e0a2  4D 85 E4                     TEST R12,R12
+  14036e0a5  75 07                        JNZ 0x14036e0ae
+  14036e0a7  83 C8 FF                     OR EAX,0xffffffff
+  14036e0aa  2B C1                        SUB EAX,ECX
+  14036e0ac  EB 02                        JMP 0x14036e0b0
+  14036e0ae  8B C1                        MOV EAX,ECX
+  14036e0b0  6B C9 07                     IMUL ECX,ECX,0x7
+  14036e0b3  8B D6                        MOV EDX,ESI
+  14036e0b5  2B D1                        SUB EDX,ECX
+--- 14036E1F0  (uMenuChrSelBgMain_vfn17)
+  14036e1f2  E8 A9 F3 19 00               CALL 0x14050d5a0
+  14036e1f7  FF C6                        INC ESI
+  14036e1f9  83 FE 1C                     CMP ESI,0x1c
+  14036e1fc  0F 8C 8E FE FF FF            JL 0x14036e090
+  14036e202  48 8B 9D E0 03 00 00         MOV RBX,qword ptr [RBP + 0x3e0]
+  14036e209  41 FF C5                     INC R13D
+--- 14036D670  (aChrSelect__remapSlotIndexCircular)
+  14036d670  44 8B C2                     MOV R8D,EDX
+  14036d673  83 E2 07                     AND EDX,0x7
+  14036d676  41 C1 E8 03                  SHR R8D,0x3
+  14036d67a  E9 01 00 00 00               JMP 0x14036d680
+  14036d680  33 C0                        XOR EAX,EAX
+  14036d682  83 FA 08                     CMP EDX,0x8
+  14036d685  0F 43 D0                     CMOVNC EDX,EAX
+  14036d688  41 83 F8 07                  CMP R8D,0x7
+  14036d68c  44 0F 43 C0                  CMOVNC R8D,EAX
+  14036d690  83 FA 04                     CMP EDX,0x4
+  14036d693  72 09                        JC 0x14036d69e
+  14036d695  B8 07 00 00 00               MOV EAX,0x7
+  14036d69a  2B C2                        SUB EAX,EDX
+  14036d69c  8B D0                        MOV EDX,EAX
+  14036d69e  B8 03 00 00 00               MOV EAX,0x3
+  14036d6a3  2B C2                        SUB EAX,EDX
+  14036d6a5  6B C0 07                     IMUL EAX,EAX,0x7
+  14036d6a8  41 03 C0                     ADD EAX,R8D
+  14036d6ab  C3                           RET
+  14036d6b0  48 63 C2                     MOVSXD RAX,EDX
+  14036d6b3  49 63 D0                     MOVSXD RDX,R8D
+  14036d6b6  48 05 6B 07 00 00            ADD RAX,0x76b
+  14036d6bc  4C 8D 0C 40                  LEA R9,[RAX + RAX*0x2]
+  14036d6c0  4C 03 CA                     ADD R9,RDX
+  14036d6c3  42 8B 04 89                  MOV EAX,dword ptr [RCX + R9*0x4]
+  14036d6c7  C3                           RET
+--- 14036F850  (uMenuChrSelCardPlayer_vfn28)
+  14036f852  41 0F 44 DD                  CMOVZ EBX,R13D
+  14036f856  41 B9 37 00 00 00            MOV R9D,0x37
+  14036f85c  45 33 C0                     XOR R8D,R8D
+  14036f85f  33 D2                        XOR EDX,EDX
+  14036f861  41 8B CF                     MOV ECX,R15D
+  14036f864  E8 D7 5D 0E 00               CALL 0x140455640

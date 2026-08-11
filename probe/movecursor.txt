@@ -1,0 +1,71 @@
+--- 1403643A0  (aChrSelect__slotState12_moveCharCursor)
+  1403643a0  48 89 5C 24 08               MOV qword ptr [RSP + 0x8],RBX
+  1403643a5  57                           PUSH RDI
+  1403643a6  48 83 EC 30                  SUB RSP,0x30
+  1403643aa  4C 8D 44 24 20               LEA R8,[RSP + 0x20]
+  1403643af  8B FA                        MOV EDI,EDX
+  1403643b1  48 8B D9                     MOV RBX,RCX
+  1403643b4  E8 B7 CB FF FF               CALL 0x140360f70
+  1403643b9  8B 4C 24 28                  MOV ECX,dword ptr [RSP + 0x28]
+  1403643bd  F7 C1 10 00 01 00            TEST ECX,0x10010
+  1403643c3  74 06                        JZ 0x1403643cb
+  1403643c5  FF 8B 48 03 00 00            DEC dword ptr [RBX + 0x348]
+  1403643cb  F7 C1 40 00 04 00            TEST ECX,0x40040
+  1403643d1  74 06                        JZ 0x1403643d9
+  1403643d3  FF 83 48 03 00 00            INC dword ptr [RBX + 0x348]
+  1403643d9  83 BB 48 03 00 00 01         CMP dword ptr [RBX + 0x348],0x1
+  1403643e0  7C 0A                        JL 0x1403643ec
+  1403643e2  C7 83 48 03 00 00 01 00 00 00  MOV dword ptr [RBX + 0x348],0x1
+  1403643ec  83 BB 48 03 00 00 00         CMP dword ptr [RBX + 0x348],0x0
+  1403643f3  7F 0A                        JG 0x1403643ff
+  1403643f5  C7 83 48 03 00 00 00 00 00 00  MOV dword ptr [RBX + 0x348],0x0
+  1403643ff  F7 C1 20 00 02 00            TEST ECX,0x20020
+  140364405  74 12                        JZ 0x140364419
+  140364407  48 63 83 48 03 00 00         MOVSXD RAX,dword ptr [RBX + 0x348]
+  14036440e  48 83 C0 44                  ADD RAX,0x44
+  140364412  48 8D 04 40                  LEA RAX,[RAX + RAX*0x2]
+  140364416  FF 04 83                     INC dword ptr [RBX + RAX*0x4]
+  140364419  F7 C1 80 00 08 00            TEST ECX,0x80080
+  14036441f  74 12                        JZ 0x140364433
+  140364421  48 63 83 48 03 00 00         MOVSXD RAX,dword ptr [RBX + 0x348]
+  140364428  48 83 C0 44                  ADD RAX,0x44
+  14036442c  48 8D 04 40                  LEA RAX,[RAX + RAX*0x2]
+  140364430  FF 0C 83                     DEC dword ptr [RBX + RAX*0x4]
+  140364433  48 63 83 48 03 00 00         MOVSXD RAX,dword ptr [RBX + 0x348]
+  14036443a  48 83 C0 44                  ADD RAX,0x44
+  14036443e  48 8D 04 40                  LEA RAX,[RAX + RAX*0x2]
+  140364442  83 3C 83 FF                  CMP dword ptr [RBX + RAX*0x4],-0x1
+  140364446  7F 07                        JG 0x14036444f
+  140364448  C7 04 83 FF FF FF FF         MOV dword ptr [RBX + RAX*0x4],0xffffffff
+  14036444f  E8 5C D6 C9 FF               CALL 0x140001ab0
+  140364454  48 8B C8                     MOV RCX,RAX
+  140364457  E8 94 05 CA FF               CALL 0x1400049f0
+  14036445c  48 8B C8                     MOV RCX,RAX
+  14036445f  E8 EC 41 ED FF               CALL 0x140238650
+  140364464  48 63 8B 48 03 00 00         MOVSXD RCX,dword ptr [RBX + 0x348]
+  14036446b  48 83 C1 44                  ADD RCX,0x44
+  14036446f  FF C8                        DEC EAX
+  140364471  48 8D 0C 49                  LEA RCX,[RCX + RCX*0x2]
+  140364475  39 04 8B                     CMP dword ptr [RBX + RCX*0x4],EAX
+  140364478  7C 03                        JL 0x14036447d
+  14036447a  89 04 8B                     MOV dword ptr [RBX + RCX*0x4],EAX
+  14036447d  80 7C 24 2C 00               CMP byte ptr [RSP + 0x2c],0x0
+  140364482  74 1F                        JZ 0x1403644a3
+  140364484  48 8B 8B F0 00 00 00         MOV RCX,qword ptr [RBX + 0xf0]
+  14036448b  48 85 C9                     TEST RCX,RCX
+  14036448e  74 05                        JZ 0x140364495
+  140364490  E8 0B 47 00 00               CALL 0x140368ba0
+  140364495  48 8B C7                     MOV RAX,RDI
+  140364498  C7 84 BB B4 02 00 00 0F 00 00 00  MOV dword ptr [RBX + RDI*0x4 + 0x2b4],0xf
+  1403644a3  B0 01                        MOV AL,0x1
+  1403644a5  48 8B 5C 24 40               MOV RBX,qword ptr [RSP + 0x40]
+  1403644aa  48 83 C4 30                  ADD RSP,0x30
+  1403644ae  5F                           POP RDI
+  1403644af  C3                           RET
+  1403644b0  48 89 74 24 10               MOV qword ptr [RSP + 0x10],RSI
+  1403644b5  57                           PUSH RDI
+  1403644b6  48 83 EC 20                  SUB RSP,0x20
+  1403644ba  8B C2                        MOV EAX,EDX
+  1403644bc  48 8B F9                     MOV RDI,RCX
+  1403644bf  48 8D 34 81                  LEA RSI,[RCX + RAX*0x4]
+  1403644c3  48 83 F0 01                  XOR RAX,0x1

@@ -1,0 +1,737 @@
+140200014  83 E0 0F                   AND EAX,0xf                      cChr__initMaterialVjobs_FCA0
+140200031  83 E6 0F                   AND ESI,0xf                      cChr__initMaterialVjobs_FCA0
+140200051  48 83 C0 08                ADD RAX,0x8                      cChr__initMaterialVjobs_FCA0
+1402000c5  83 E0 0F                   AND EAX,0xf                      cChr__initMaterialVjobs_FCA0
+1402000e2  83 E6 0F                   AND ESI,0xf                      cChr__initMaterialVjobs_FCA0
+140200102  48 83 C0 10                ADD RAX,0x10                     cChr__initMaterialVjobs_FCA0
+140200171  83 E0 0F                   AND EAX,0xf                      cChr__initMaterialVjobs_FCA0
+14020018e  83 E6 0F                   AND ESI,0xf                      cChr__initMaterialVjobs_FCA0
+1402001ae  48 83 C0 10                ADD RAX,0x10                     cChr__initMaterialVjobs_FCA0
+140200223  83 E0 0F                   AND EAX,0xf                      cChr__initMaterialVjobs_FCA0
+140200240  83 E6 0F                   AND ESI,0xf                      cChr__initMaterialVjobs_FCA0
+140200260  48 83 C0 08                ADD RAX,0x8                      cChr__initMaterialVjobs_FCA0
+1402002d1  83 E0 0F                   AND EAX,0xf                      cChr__initMaterialVjobs_FCA0
+14020047a  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget2
+1402004a9  C1 E8 04                   SHR EAX,0x4                      uCharacter__processTarget2
+1402004ac  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget2
+1402004de  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget2
+140200510  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget2
+140200540  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget2
+140200572  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget2
+1402005a2  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget2
+140200642  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget3
+140200671  C1 E8 04                   SHR EAX,0x4                      uCharacter__processTarget3
+140200674  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget3
+1402006a6  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget3
+1402006d8  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget3
+140200708  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget3
+14020073a  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget3
+14020076a  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget3
+140200d2d  48 8D 1C F5 00 00 00 00    LEA RBX,[RSI*0x8]                uCharacter__processCommand2
+140200f92  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget1
+140200fbe  C1 E8 04                   SHR EAX,0x4                      uCharacter__processTarget1
+140200fc1  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget1
+140200ff0  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget1
+14020101f  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget1
+14020104c  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget1
+14020107b  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget1
+1402010a8  83 E0 0F                   AND EAX,0xf                      uCharacter__processTarget1
+14020111a  48 83 C1 10                ADD RCX,0x10                     FUN_140201100
+140201270  48 83 C2 10                ADD RDX,0x10                     FUN_140201260
+140201274  48 83 C1 10                ADD RCX,0x10                     FUN_140201260
+140202375  48 83 C1 10                ADD RCX,0x10                     ?
+14020240b  48 83 C2 10                ADD RDX,0x10                     FUN_140202250
+14020264a  48 83 C0 10                ADD RAX,0x10                     FUN_140202490
+1402032c0  83 E0 0F                   AND EAX,0xf                      uMenuMain__copyBlock_0x16C_at288
+14020356f  83 E0 0F                   AND EAX,0xf                      sLicense__copyLockedBuffer_0x690_at64
+140205b86  48 83 C7 08                ADD RDI,0x8                      aAction__processBattleCompletionUnlocks
+140207792  83 E0 0F                   AND EAX,0xf                      sLicense__copyField_3F4From
+140207882  83 E0 0F                   AND EAX,0xf                      sLicense__copyField_3F4FromAlt
+1402086a5  48 83 C3 08                ADD RBX,0x8                      aChrSelect__releaseArchivesAndSelectionResources
+14020878c  48 83 C3 08                ADD RBX,0x8                      aChrSelect__releaseArchivesAndSelectionResources
+1402087c9  48 83 C3 08                ADD RBX,0x8                      aChrSelect__releaseArchivesAndSelectionResources
+14020882c  48 83 C3 08                ADD RBX,0x8                      aChrSelect__releaseArchivesAndSelectionResources
+140208ac2  83 E0 0F                   AND EAX,0xf                      sGameConfig__copyBlock0xA4_at608_locked
+140209fa6  83 E0 0F                   AND EAX,0xf                      sBattleSetting__setSlot3At255208
+140209ff2  83 E0 0F                   AND EAX,0xf                      sGameConfig__copyMatrixA4_609_locked
+14020a0b6  83 E0 0F                   AND EAX,0xf                      sBattleSetting__setTeamCharID
+14020a8a5  C1 E9 04                   SHR ECX,0x4                      ?
+14020a8c3  83 E0 0F                   AND EAX,0xf                      ?
+14020d402  48 83 C3 08                ADD RBX,0x8                      FUN_14020d3d0
+140211280  41 83 C0 08                ADD R8D,0x8                      uMvc3LightSpaceShadow__func_FD10
+1402157af  48 83 C3 08                ADD RBX,0x8                      uUiAnmSprite__func_56D0
+14021bc39  83 E0 0F                   AND EAX,0xf                      FUN_14021bc30
+14021bcd9  83 E0 0F                   AND EAX,0xf                      FUN_14021bcd0
+14021bd69  83 E0 0F                   AND EAX,0xf                      FUN_14021bd60
+14021be53  83 E0 0F                   AND EAX,0xf                      sGameConfig__copyBlockA4Locked
+14021bf2d  83 E0 0F                   AND EAX,0xf                      FUN_14021bf20
+14021bfdd  83 E0 0F                   AND EAX,0xf                      FUN_14021bfd0
+14021c1c2  83 E0 0F                   AND EAX,0xf                      sEarthAtk__copyLockedBuffer_0x388_at724
+14021c2e2  83 E0 0F                   AND EAX,0xf                      sGameConfig__copyConfigBlob_305312_locked
+14021e9b0  48 83 C1 08                ADD RCX,0x8                      aTitle__forwardField8
+14021f1f7  48 83 C7 08                ADD RDI,0x8                      FUN_14021f1c0
+14021f663  4C 8D 0C FE                LEA R9,[RSI + RDI*0x8]           cExtraCpu__createProperty_21F4F0
+14021f6dc  48 8D 34 D9                LEA RSI,[RCX + RBX*0x8]          rExCpuInfo__classFunc
+14021f819  48 83 C1 08                ADD RCX,0x8                      cExtraCpu_vfn5
+14022325f  83 E0 0F                   AND EAX,0xf                      sLicense__copyIncoming_0x690_at64_locked
+140229379  C1 E9 04                   SHR ECX,0x4                      ?
+14022fc43  83 E0 0F                   AND EAX,0xf                      ?
+14022fcff  83 E0 0F                   AND EAX,0xf                      ?
+140232e06  83 E0 0F                   AND EAX,0xf                      FUN_140232df0
+140237727  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_436
+140237777  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_432
+1402377c7  83 E0 0F                   AND EAX,0xf                      FUN_1402377c0
+140237827  83 E0 0F                   AND EAX,0xf                      FUN_140237820
+140237887  83 E0 0F                   AND EAX,0xf                      FUN_140237880
+1402378e7  83 E0 0F                   AND EAX,0xf                      FUN_1402378e0
+140237957  83 E0 0F                   AND EAX,0xf                      FUN_140237950
+1402379c7  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_460
+140237a17  83 E0 0F                   AND EAX,0xf                      FUN_140237a10
+140237a77  83 E0 0F                   AND EAX,0xf                      FUN_140237a70
+140237ad7  83 E0 0F                   AND EAX,0xf                      FUN_140237ad0
+140237b37  83 E0 0F                   AND EAX,0xf                      FUN_140237b30
+140237b97  83 E0 0F                   AND EAX,0xf                      FUN_140237b90
+140237be7  83 E0 0F                   AND EAX,0xf                      FUN_140237be0
+140237c56  83 E0 0F                   AND EAX,0xf                      FUN_140237c40
+140237c72  83 E0 0F                   AND EAX,0xf                      FUN_140237c70
+140237c87  83 E0 0F                   AND EAX,0xf                      FUN_140237c80
+140237ce7  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_452
+140237d37  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_456
+140237d9e  83 E7 0F                   AND EDI,0xf                      uHaggar__proc_7D80
+140237dd8  C1 E8 03                   SHR EAX,0x3                      uHaggar__proc_7D80
+140237ed0  C1 E8 04                   SHR EAX,0x4                      uHaggar__proc_7D80
+1402380dc  C1 E8 04                   SHR EAX,0x4                      uHaggar__proc_7D80
+1402383cf  C1 E8 04                   SHR EAX,0x4                      uHaggar__proc_7D80
+1402384d7  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_520
+140238527  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_516
+1402385e7  83 E0 0F                   AND EAX,0xf                      FUN_1402385e0
+140238667  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_472_or_876
+1402386b7  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_488_or_892
+140238707  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_492_or_896
+140238757  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_480_or_884
+1402387a7  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_476_or_880
+1402387f7  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_496_or_900
+140238847  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_472_or_876_alt
+140238897  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_464
+1402388e7  83 E0 0F                   AND EAX,0xf                      FUN_1402388e0
+140238947  83 E0 0F                   AND EAX,0xf                      FUN_140238940
+1402389a7  83 E0 0F                   AND EAX,0xf                      FUN_1402389a0
+140238a27  83 E0 0F                   AND EAX,0xf                      FUN_140238a20
+140238a77  83 E0 0F                   AND EAX,0xf                      FUN_140238a70
+140238ad7  83 E0 0F                   AND EAX,0xf                      FUN_140238ad0
+140238b47  83 E0 0F                   AND EAX,0xf                      FUN_140238b40
+140238ba7  83 E0 0F                   AND EAX,0xf                      FUN_140238ba0
+140238c07  83 E0 0F                   AND EAX,0xf                      FUN_140238c00
+140238c77  83 E0 0F                   AND EAX,0xf                      FUN_140238c70
+140238cd7  83 E0 0F                   AND EAX,0xf                      FUN_140238cd0
+140238d37  83 E0 0F                   AND EAX,0xf                      FUN_140238d30
+140238da7  83 E0 0F                   AND EAX,0xf                      FUN_140238da0
+140238e07  83 E0 0F                   AND EAX,0xf                      FUN_140238e00
+140238e82  83 E0 0F                   AND EAX,0xf                      FUN_140238e80
+140238e97  83 E0 0F                   AND EAX,0xf                      FUN_140238e90
+140238fe7  83 E0 0F                   AND EAX,0xf                      FUN_140238fe0
+140239047  83 E0 0F                   AND EAX,0xf                      FUN_140239040
+140239097  83 E0 0F                   AND EAX,0xf                      FUN_140239090
+1402390f7  83 E0 0F                   AND EAX,0xf                      FUN_1402390f0
+14023cd27  83 E0 0F                   AND EAX,0xf                      FUN_14023cd20
+14023cd87  83 E0 0F                   AND EAX,0xf                      FUN_14023cd80
+14023cde7  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharDamageValue
+14023ce37  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_448
+14023ce87  83 E0 0F                   AND EAX,0xf                      FUN_14023ce80
+14023cee7  83 E0 0F                   AND EAX,0xf                      uHaggar__util_CEE0
+14023cf27  83 E0 0F                   AND EAX,0xf                      FUN_14023cf20
+14023cf87  83 E0 0F                   AND EAX,0xf                      FUN_14023cf80
+14023cfe7  83 E0 0F                   AND EAX,0xf                      FUN_14023cfe0
+14023d047  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharFieldF_468
+14023d097  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_504_or_908
+14023d0e7  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_508_or_912
+14023d137  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_500_or_904
+14023d187  83 E0 0F                   AND EAX,0xf                      sBattleSetting__getCharField_512_or_916
+14023d1d7  83 E0 0F                   AND EAX,0xf                      FUN_14023d1d0
+14023d246  83 E2 0F                   AND EDX,0xf                      sBattleSetting__getTeamCharID
+14023d4a7  83 E0 0F                   AND EAX,0xf                      FUN_14023d4a0
+14023d517  83 E0 0F                   AND EAX,0xf                      FUN_14023d510
+14023d878  C1 E9 03                   SHR ECX,0x3                      ?
+14023d87d  8D 04 CD 00 00 00 00       LEA EAX,[RCX*0x8]                ?
+14023df74  83 E6 0F                   AND ESI,0xf                      aChrSelect__setChrSlot
+14023f34f  83 E3 0F                   AND EBX,0xf                      FUN_14023f340
+14023f5ce  41 83 E2 0F                AND R10D,0xf                     FUN_14023f370
+140241985  41 83 E6 0F                AND R14D,0xf                     FUN_140241930
+140241a85  41 83 E6 0F                AND R14D,0xf                     FUN_140241a30
+140241c0f  41 83 E6 0F                AND R14D,0xf                     sBattleSetting__checkAtkChainOrAssistThreshold
+140241d4c  83 E5 0F                   AND EBP,0xf                      FUN_140241d00
+140241e37  83 E7 0F                   AND EDI,0xf                      sBattleSetting__filterChainCheck
+140241fac  83 E5 0F                   AND EBP,0xf                      FUN_140241f60
+140242059  41 83 E2 0F                AND R10D,0xf                     FUN_140242040
+140242060  83 E7 0F                   AND EDI,0xf                      FUN_140242040
+14024310d  83 E3 0F                   AND EBX,0xf                      FUN_1402430f0
+1402436fc  41 83 E6 0F                AND R14D,0xf                     FUN_1402436a0
+1402437ed  41 83 E5 0F                AND R13D,0xf                     FUN_1402437b0
+1402439f1  41 83 E6 0F                AND R14D,0xf                     FUN_140243950
+140243b60  41 83 E6 0F                AND R14D,0xf                     FUN_140243b10
+140243e90  83 E2 0F                   AND EDX,0xf                      sBattleSetting__setFlagAt245388_locked
+140246948  41 83 E1 0F                AND R9D,0xf                      FUN_140246940
+1402469a2  83 E0 0F                   AND EAX,0xf                      FUN_1402469a0
+140246c45  83 E0 0F                   AND EAX,0xf                      FUN_140246c00
+1402473c8  83 E0 0F                   AND EAX,0xf                      FUN_140246c00
+1402474ae  83 E5 0F                   AND EBP,0xf                      sBattleSetting__applyAtkFlagAndSetBit297196
+1402474b4  83 E6 0F                   AND ESI,0xf                      sBattleSetting__applyAtkFlagAndSetBit297196
+14024765c  83 E1 0F                   AND ECX,0xf                      FUN_140247590
+14024b59a  83 E0 0F                   AND EAX,0xf                      sBattleSetting__backupBattleConfiguration
+14024b9a5  48 83 C3 08                ADD RBX,0x8                      sBattleSetting__spawnConfiguredCharactersAndAudio
+14024bab3  49 83 C6 08                ADD R14,0x8                      sBattleSetting__spawnConfiguredCharactersAndAudio
+14024bac7  48 83 C6 08                ADD RSI,0x8                      sBattleSetting__spawnConfiguredCharactersAndAudio
+14024d000  C1 FA 04                   SAR EDX,0x4                      sBattleSetting__pushTeamInputHistory
+14024d019  C1 FA 04                   SAR EDX,0x4                      sBattleSetting__pushTeamInputHistory
+14024dc60  48 8D 0C C5 00 00 00 00    LEA RCX,[RAX*0x8]                ActivatesWhenEnteringArcadeMode_0
+14024de76  83 E0 0F                   AND EAX,0xf                      sBattleSetting__restoreBackupAndInit
+14024e363  C1 EA 03                   SHR EDX,0x3                      sBattleSetting__fillEmptySlotsRandom
+14024eae4  C1 FA 03                   SAR EDX,0x3                      ?
+14024ebc9  48 83 C1 10                ADD RCX,0x10                     sGameConfig__initHelperA
+14024ec99  48 83 C1 10                ADD RCX,0x10                     sGameConfig__initSubCRefPair
+14024f9bc  83 E1 0F                   AND ECX,0xf                      sGameConfig__copyBlock210
+14024fa7c  83 E1 0F                   AND ECX,0xf                      sGameConfig__copyBlock31C
+1402520e2  83 E0 0F                   AND EAX,0xf                      sLicense__copyField_3F4To
+1402521d2  83 E0 0F                   AND EAX,0xf                      sLicense__copyField_3F4ToAlt
+1402527f6  48 83 C3 10                ADD RBX,0x10                     sGameConfig__resetCharacterSelectionPresets
+140253c70  48 83 C1 08                ADD RCX,0x8                      FUN_140253c70
+140253c7a  83 E0 0F                   AND EAX,0xf                      FUN_140253c70
+140253d00  48 83 C1 08                ADD RCX,0x8                      FUN_140253d00
+140253d0a  83 E0 0F                   AND EAX,0xf                      FUN_140253d00
+140253d8d  83 E0 0F                   AND EAX,0xf                      sGameConfig__copyConfigBlob_16C_53D80
+1402541a2  83 E0 0F                   AND EAX,0xf                      sMission__setCommonDataLocked
+140254d82  83 E0 0F                   AND EAX,0xf                      FUN_140254d60
+140255345  48 83 C3 08                ADD RBX,0x8                      sGameConfig__resolveNetworkSessionSlot
+14025573a  49 83 C6 08                ADD R14,0x8                      sGameConfig__initializeBattleAudioAndTeamContexts
+140255b0b  49 83 C1 08                ADD R9,0x8                       ?
+140255b6b  49 83 C1 08                ADD R9,0x8                       ?
+140255bdb  49 83 C1 08                ADD R9,0x8                       ?
+140255c3b  49 83 C1 08                ADD R9,0x8                       ?
+140255c9b  49 83 C1 08                ADD R9,0x8                       ?
+140255d4b  49 83 C1 08                ADD R9,0x8                       ?
+140259365  49 83 C7 08                ADD R15,0x8                      FUN_140259290
+14025aca2  48 83 C7 08                ADD RDI,0x8                      sMvc3SceneUI__areCharArchivesLoadedAtSlot
+14025ad60  4C 8D 34 FE                LEA R14,[RSI + RDI*0x8]          SomethingThatLoadsOrRunsDuringCautionBeforeIntro__proc_AD30
+14025afee  48 83 C3 08                ADD RBX,0x8                      sMvc3Manager__dtor_A070_1
+14025b003  49 8D 1C DE                LEA RBX,[R14 + RBX*0x8]          sMvc3Manager__dtor_A070_1
+14025bc79  48 83 C1 10                ADD RCX,0x10                     FUN_14025bc60
+14025c550  48 83 C1 10                ADD RCX,0x10                     sId__getMapIdCount
+14025d302  48 8D 0C D5 00 00 00 00    LEA RCX,[RDX*0x8]                MtArray__method_D2E0
+14025e1b9  48 83 C1 08                ADD RCX,0x8                      cMatchListener__dtor_8A00_0
+140261fac  48 83 C1 08                ADD RCX,0x8                      uMenuItem__initWithFnPtr
+140261fcc  48 83 C1 08                ADD RCX,0x8                      uMenuItem__initWithFnPtr2
+140261ff0  48 83 C1 08                ADD RCX,0x8                      FUN_140261ff0
+140262000  48 83 C1 08                ADD RCX,0x8                      FUN_140262000
+140262616  48 83 C1 08                ADD RCX,0x8                      uMenuItem__getCachedValue_helper
+140262636  48 83 C1 08                ADD RCX,0x8                      uMenuItem__getCachedValue_int
+140262656  48 83 C1 08                ADD RCX,0x8                      cNetChrSel__checkLockedFlagAt_8
+140262670  48 83 C1 08                ADD RCX,0x8                      FUN_140262670
+140262680  48 83 C1 08                ADD RCX,0x8                      FUN_140262680
+140262695  48 83 C1 08                ADD RCX,0x8                      FUN_140262690
+140263194  83 E5 0F                   AND EBP,0xf                      FUN_140263160
+14026319a  41 83 E6 0F                AND R14D,0xf                     FUN_140263160
+1402636c2  83 E0 0F                   AND EAX,0xf                      FUN_1402636c0
+140263801  83 E9 10                   SUB ECX,0x10                     FUN_1402637b0
+140264d16  83 E0 0F                   AND EAX,0xf                      FUN_140264d10
+1402674b2  83 E0 0F                   AND EAX,0xf                      sNetMesContainer__copy690Buffer_locked
+140268108  83 E0 0F                   AND EAX,0xf                      FUN_1402680b0
+14026812a  83 E0 0F                   AND EAX,0xf                      FUN_1402680b0
+140268136  83 E0 0F                   AND EAX,0xf                      FUN_1402680b0
+140268142  83 E0 07                   AND EAX,0x7                      FUN_1402680b0
+140269516  48 83 C1 08                ADD RCX,0x8                      FUN_140269510
+140269530  48 83 C1 08                ADD RCX,0x8                      FUN_140269530
+14026aac9  83 E0 07                   AND EAX,0x7                      FUN_14026aac0
+14026aad2  C1 E8 03                   SHR EAX,0x3                      FUN_14026aac0
+14026aad5  83 E0 0F                   AND EAX,0xf                      FUN_14026aac0
+14026aae1  83 E0 0F                   AND EAX,0xf                      FUN_14026aac0
+14026ab05  83 E0 0F                   AND EAX,0xf                      FUN_14026aac0
+14026cb20  48 83 C1 08                ADD RCX,0x8                      FUN_14026cb20
+14026e4d0  48 83 C1 08                ADD RCX,0x8                      FUN_14026e4d0
+14026f819  48 83 C1 08                ADD RCX,0x8                      FUN_14026f810
+14026f8e0  48 83 C1 08                ADD RCX,0x8                      FUN_14026f8e0
+140273162  83 E0 0F                   AND EAX,0xf                      sMvc3SceneUI__composeJoinStateForUI
+140273c60  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn23
+140273cb1  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn24
+140273cf4  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn38
+140273d4a  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn31
+140273da5  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn34
+140273e24  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn35
+140273e78  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn27
+140273ed1  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn28
+140273f14  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn36
+140273f62  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn29
+140273fc1  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn30
+14027401a  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn32
+140274071  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn33
+1402740c4  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn43
+140274115  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn44
+140274151  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn25
+1402741a1  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn26
+1402741f4  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn41
+140274265  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn42
+1402742d5  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn40
+140274344  48 83 C3 08                ADD RBX,0x8                      cNetFriendListListener_vfn39
+1402763a4  41 C1 E8 03                SHR R8D,0x3                      FUN_140276290
+140276af3  83 E0 0F                   AND EAX,0xf                      sEarthAtk__copyResultData
+14027858c  C1 E8 03                   SHR EAX,0x3                      sEarthAtk__unpackSessionState
+140278ada  83 E0 0F                   AND EAX,0xf                      sEarthAtk__applyResultData
+140278bd6  83 E0 0F                   AND EAX,0xf                      sEarthAtk__copyIndexedResultFrom
+14027990c  83 E1 0F                   AND ECX,0xf                      sLicense__copyBlock690
+140279b41  C1 EA 03                   SHR EDX,0x3                      sLicense__correctionRandomGet
+140279b7a  C1 EA 03                   SHR EDX,0x3                      sLicense__correctionRandomGet
+140279bf1  C1 EA 03                   SHR EDX,0x3                      sLicense__correctionRandomGet
+140279c2b  C1 EA 03                   SHR EDX,0x3                      sLicense__correctionRandomGet
+140279ca1  C1 EA 03                   SHR EDX,0x3                      sLicense__correctionRandomGet
+140279cdb  C1 EA 03                   SHR EDX,0x3                      sLicense__correctionRandomGet
+14027c670  48 83 C3 08                ADD RBX,0x8                      sLicense_vfn9
+14027d37e  C1 EA 04                   SHR EDX,0x4                      sLicense__historyRandomCreate
+14027d3a4  C1 EA 04                   SHR EDX,0x4                      sLicense__historyRandomCreate
+14027d3c6  C1 EA 04                   SHR EDX,0x4                      sLicense__historyRandomCreate
+14027ef95  C1 FA 04                   SAR EDX,0x4                      sLicense__setUnlockBitAndNotify_locked
+14027f77f  83 E2 0F                   AND EDX,0xf                      FUN_14027f5a0
+14027f785  C1 FF 04                   SAR EDI,0x4                      FUN_14027f5a0
+140281cfb  48 83 C2 10                ADD RDX,0x10                     detectRegionBySteamCountry_maybe
+140281e40  48 8D 04 CD F8 FF FF FF    LEA RAX,[-0x8 + RCX*0x8]         uBattleResult__configureResultPresentation
+140283213  83 E0 0F                   AND EAX,0xf                      MtObject__vfn_2_4
+1402880a6  48 83 C1 08                ADD RCX,0x8                      FUN_1402880a0
+1402880c0  48 83 C1 08                ADD RCX,0x8                      FUN_1402880c0
+1402893e7  4A 8D 04 C0                LEA RAX,[RAX + R8*0x8]           sNetPad__getRingSlot
+14028eff2  83 E0 0F                   AND EAX,0xf                      sLicense__copyProfileBlock690To
+140291d5a  41 83 E0 07                AND R8D,0x7                      FUN_140291d10
+140291d73  83 E7 07                   AND EDI,0x7                      FUN_140291d10
+140293b44  49 83 C6 08                ADD R14,0x8                      sNetworkRoom__processRoomMessages_maybe
+1402945a9  48 8D 14 C2                LEA RDX,[RDX + RAX*0x8]          FUN_140294310
+1402945cb  48 8D 14 C2                LEA RDX,[RDX + RAX*0x8]          FUN_140294310
+1402945f0  48 8D 14 C2                LEA RDX,[RDX + RAX*0x8]          FUN_140294310
+140294615  48 8D 14 C2                LEA RDX,[RDX + RAX*0x8]          FUN_140294310
+14029463a  48 8D 14 C2                LEA RDX,[RDX + RAX*0x8]          FUN_140294310
+14029465f  48 8D 14 C2                LEA RDX,[RDX + RAX*0x8]          FUN_140294310
+140294684  48 8D 14 C2                LEA RDX,[RDX + RAX*0x8]          FUN_140294310
+1402946cf  4C 8D 14 CD 00 00 00 00    LEA R10,[RCX*0x8]                FUN_140294310
+140295326  48 83 C0 08                ADD RAX,0x8                      sMvc3SceneUI__findInArrayKey0_offset
+1402987e8  83 C7 10                   ADD EDI,0x10                     rGameDataInstallList__clear
+14029a055  48 83 C7 08                ADD RDI,0x8                      rMayaCameraListXml__local_140299fc0
+14029a242  49 83 C4 08                ADD R12,0x8                      rMayaCameraListXml__local_140299fc0
+14029a365  48 83 C6 08                ADD RSI,0x8                      rMayaCameraListXml_vfn14
+14029a6f9  48 83 C1 08                ADD RCX,0x8                      rMayaCameraList__convert
+14029a742  48 83 C2 08                ADD RDX,0x8                      rMayaCameraList__convert
+14029b367  8D 04 DD 00 00 00 00       LEA EAX,[RBX*0x8]                FUN_14029b340
+14029b406  8D 0C D5 00 00 00 00       LEA ECX,[RDX*0x8]                FUN_14029b3f0
+14029b477  8D 04 DD 00 00 00 00       LEA EAX,[RBX*0x8]                FUN_14029b450
+14029b6b3  48 83 C3 08                ADD RBX,0x8                      rMsgData__dtor_1
+14029b6d3  48 83 C3 10                ADD RBX,0x10                     rMsgData__dtor_1
+14029b9ec  48 83 C7 10                ADD RDI,0x10                     rMsgData__clear
+14029c948  83 C7 10                   ADD EDI,0x10                     rResourcePathList__clear
+14029d1d8  83 C7 10                   ADD EDI,0x10                     rSPCList__clear
+14029d9d0  48 83 C1 08                ADD RCX,0x8                      rStageParam__cStageParam__dtor_1
+14029ea73  48 83 C3 08                ADD RBX,0x8                      FUN_14029e9d0
+14029eb23  83 C6 10                   ADD ESI,0x10                     rStgObjLayout__clear
+14029eca0  48 83 C3 08                ADD RBX,0x8                      FUN_14029ebd0
+14029ef64  4C 8D 04 C1                LEA R8,[RCX + RAX*0x8]           FUN_14029ef30
+14029fb65  48 83 C3 08                ADD RBX,0x8                      rShot__release
+14029fd96  48 83 C6 08                ADD RSI,0x8                      rShot__init
+1402a02b8  83 C7 10                   ADD EDI,0x10                     rShotList__clear
+1402a0470  48 83 C1 08                ADD RCX,0x8                      sGSound__voiceListEntry_dtor_inner_R5B_1
+1402a0546  48 83 C1 08                ADD RCX,0x8                      cNetFriendList_vfn7
+1402a0f16  48 83 C1 08                ADD RCX,0x8                      sGSound__voiceListEntry_reset
+1402a146f  48 83 C1 08                ADD RCX,0x8                      sGSound__findVoiceByRef
+1402a1520  48 83 C1 08                ADD RCX,0x8                      FUN_1402a1520
+1402a1ec4  48 83 C1 08                ADD RCX,0x8                      FUN_1402a1eb0
+1402a2d40  83 E0 0F                   AND EAX,0xf                      FUN_1402a2d20
+1402a8753  49 8D 0C C2                LEA RCX,[R10 + RAX*0x8]          FUN_1402a8730
+1402a8962  42 8D 04 CD 0C 00 00 00    LEA EAX,[0xc + R9*0x8]           FUN_1402a8930
+1402a9585  83 C7 08                   ADD EDI,0x8                      sGSound__selectRandomVoiceVariant
+1402a9930  83 C7 08                   ADD EDI,0x8                      sGSound__selectRandomVoiceVariant
+1402aa1f5  48 83 C3 10                ADD RBX,0x10                     ?
+1402aa4b5  48 83 C3 10                ADD RBX,0x10                     ?
+1402ab5aa  48 8D 0C CB                LEA RCX,[RBX + RCX*0x8]          FUN_1402ab570
+1402ac562  49 8D 14 C7                LEA RDX,[R15 + RAX*0x8]          sGSound__voiceParamUpdate_AllSlots_AC430
+1402acd80  49 8D 14 C6                LEA RDX,[R14 + RAX*0x8]          FUN_1402acc40
+1402aedb2  49 8D 14 C7                LEA RDX,[R15 + RAX*0x8]          FUN_1402aec80
+1402b24f2  C0 E8 04                   SHR AL,0x4                       uStoragePC_vfn24
+1402b2585  C0 E8 04                   SHR AL,0x4                       uStoragePC_vfn24
+1402b4910  48 83 C1 08                ADD RCX,0x8                      FUN_1402b4900
+1402b4990  48 83 C1 08                ADD RCX,0x8                      sMvc3Resource__cLoadResource__dtor_1
+1402b5070  48 83 C1 10                ADD RCX,0x10                     FUN_1402b5070
+1402b523b  49 83 C1 08                ADD R9,0x8                       sMvc3Scene_vfn17
+1402b6115  48 83 83 10 0A 00 00 10    ADD qword ptr [RBX + 0xa10],0x10 sMvc3Vibration__move
+1402b627c  48 83 C3 10                ADD RBX,0x10                     cGameUiResManager__dtor_1
+1402b636d  48 83 C3 08                ADD RBX,0x8                      cGameUiResManager__dtor_1
+1402b67aa  48 83 C0 08                ADD RAX,0x8                      cGameUiResManager_vfn5
+1402b67d0  48 8D 34 C7                LEA RSI,[RDI + RAX*0x8]          cGameUiResManager_vfn5
+1402b6857  48 8D 1C CB                LEA RBX,[RBX + RCX*0x8]          cGameUiResManager_vfn5
+1402b6875  48 83 C3 08                ADD RBX,0x8                      cGameUiResManager_vfn5
+1402b69b5  48 83 C3 10                ADD RBX,0x10                     FUN_1402b6900
+1402b6b09  48 83 C1 10                ADD RCX,0x10                     FUN_1402b6b00
+1402b6bf0  48 83 C1 10                ADD RCX,0x10                     FUN_1402b6bf0
+1402bc6cc  C1 E9 04                   SHR ECX,0x4                      StageSelectArray?
+1402bcf82  48 83 C7 08                ADD RDI,0x8                      FUN_1402bcf40
+1402bdfa4  48 83 C6 08                ADD RSI,0x8                      sGameUI__loadNextBattlePreviewArchives
+1402bf1e7  48 83 C3 08                ADD RBX,0x8                      sGameUI__createProperty_F190
+1402c184d  48 83 43 60 08             ADD qword ptr [RBX + 0x60],0x8   cActorGameSpriteAnm_vfn7
+1402c1dd1  48 83 C3 08                ADD RBX,0x8                      FUN_1402c1c80
+1402c1fa0  48 83 C3 08                ADD RBX,0x8                      uActorGameSprite__dtor_1
+1402c26bd  48 8D 1C F5 00 00 00 00    LEA RBX,[RSI*0x8]                uActorGameSprite_vfn50
+1402c300f  83 E0 07                   AND EAX,0x7                      cUnit__cUnit
+1402c326f  83 E0 0F                   AND EAX,0xf                      ?
+1402c32e5  83 E0 0F                   AND EAX,0xf                      ?
+1402c8643  C1 E8 04                   SHR EAX,0x4                      FUN_1402c8640
+1402ca521  48 83 C7 08                ADD RDI,0x8                      ?
+1402ca913  48 83 C3 08                ADD RBX,0x8                      uUiAnmSpriteFont__dtor_1
+1402ca945  48 83 C3 08                ADD RBX,0x8                      uUiAnmSpriteFont__dtor_1
+1402cad1d  44 8D 04 FB                LEA R8D,[RBX + RDI*0x8]          FUN_1402cacc0
+1402caed7  44 8D 0C FB                LEA R9D,[RBX + RDI*0x8]          FUN_1402cacc0
+1402caeef  49 8D 04 F8                LEA RAX,[R8 + RDI*0x8]           FUN_1402cacc0
+1402cafa3  48 83 C3 10                ADD RBX,0x10                     FUN_1402cacc0
+1402cb13a  48 83 C6 10                ADD RSI,0x10                     FUN_1402cb040
+1402cb4c4  8D 1C C3                   LEA EBX,[RBX + RAX*0x8]          uUiAnmSpriteFont_vfn59
+1402cbf73  48 83 C1 10                ADD RCX,0x10                     ?
+1402cd444  49 83 C6 10                ADD R14,0x10                     sPrimitive__submitSpriteQuadXform_CD320
+1402cd745  48 83 C5 10                ADD RBP,0x10                     sPrimitive__submitSpriteQuadDirect_CD600
+1402cde45  41 C1 E8 04                SHR R8D,0x4                      FUN_1402cde10
+1402ce63a  48 8D 3C C1                LEA RDI,[RCX + RAX*0x8]          FUN_1402ce620
+1402ceace  48 83 C6 08                ADD RSI,0x8                      uUiAnmSpriteFont__loadLocalizedMessageResources
+1402cee0b  48 83 C6 08                ADD RSI,0x8                      SomethingElseRelatedToCharacterTextFiles
+1402d0a1a  49 83 C7 10                ADD R15,0x10                     ?
+1402d0a1e  48 83 C6 08                ADD RSI,0x8                      ?
+1402d0a41  48 83 C1 10                ADD RCX,0x10                     ?
+1402d0a45  48 83 C0 08                ADD RAX,0x8                      ?
+1402d3738  48 83 C3 08                ADD RBX,0x8                      uBattleUiCommandList_vfn18
+1402d3765  49 8D 3C C6                LEA RDI,[R14 + RAX*0x8]          uBattleUiCommandList_vfn18
+1402d37b5  49 8D 3C C6                LEA RDI,[R14 + RAX*0x8]          uBattleUiCommandList_vfn18
+1402d37f4  C0 E8 04                   SHR AL,0x4                       uBattleUiCommandList_vfn18
+1402d38a6  49 83 C6 08                ADD R14,0x8                      uBattleUiCommandList__updateCharacterEntryHighlights
+1402d3b1e  48 83 C0 10                ADD RAX,0x10                     uBattleUiCommandList__countFilteredRows
+1402d3b57  41 83 E8 08                SUB R8D,0x8                      uBattleUiCommandList__leaveCharacterCommandPage
+1402d4035  49 8D 1C C7                LEA RBX,[R15 + RAX*0x8]          uBattleUiCommandList__destroyCommandRowSprites
+1402d478e  80 C2 08                   ADD DL,0x8                       ?
+1402d4874  41 83 E8 08                SUB R8D,0x8                      ?
+1402d48c0  48 83 C6 08                ADD RSI,0x8                      ?
+1402d4c88  83 E8 08                   SUB EAX,0x8                      FUN_1402d4a50
+1402d4e35  41 83 E9 08                SUB R9D,0x8                      FUN_1402d4a50
+1402d4ff0  48 83 C6 08                ADD RSI,0x8                      FUN_1402d4a50
+1402d5010  41 83 E8 08                SUB R8D,0x8                      FUN_1402d4a50
+1402d52b4  48 83 C3 08                ADD RBX,0x8                      uBattleUiCommandList__updateCommandPageInput
+1402d558f  48 83 C3 08                ADD RBX,0x8                      ?
+1402d5a58  48 83 C3 08                ADD RBX,0x8                      uBattleUiCommandList__setPrimarySpriteVisibility
+1402d5b84  48 83 C2 10                ADD RDX,0x10                     uBattleUiCommandList__buildCommandRows
+1402d616b  49 83 C6 08                ADD R14,0x8                      uBattleUiCommandList__buildCommandRows
+1402d637e  48 83 C3 08                ADD RBX,0x8                      uBattleUiCommandList__hideSecondarySprites
+1402d63b5  48 83 C3 08                ADD RBX,0x8                      uBattleUiCommandList__hideSecondarySprites
+1402d77a9  48 83 C1 10                ADD RCX,0x10                     FUN_1402d77a0
+1402d8950  49 83 C6 10                ADD R14,0x10                     ?
+1402d89df  49 83 C6 10                ADD R14,0x10                     ?
+1402d8a9f  49 83 C6 10                ADD R14,0x10                     ?
+1402d92c9  48 83 C3 08                ADD RBX,0x8                      FUN_1402d9240
+1402d9309  48 83 C3 08                ADD RBX,0x8                      FUN_1402d9240
+1402d9359  48 83 C3 08                ADD RBX,0x8                      FUN_1402d9240
+1402d95ee  C1 EB 03                   SHR EBX,0x3                      FUN_1402d9240
+1402d9764  49 83 C6 08                ADD R14,0x8                      FUN_1402d9240
+1402d991c  48 83 C7 08                ADD RDI,0x8                      FUN_1402d9240
+1402d9a91  48 83 C3 08                ADD RBX,0x8                      uBattleUiMission__kill
+1402d9ad3  48 83 C3 08                ADD RBX,0x8                      uBattleUiMission__kill
+1402d9b14  48 83 C3 08                ADD RBX,0x8                      uBattleUiMission__kill
+1402d9c02  48 8D 3C C5 00 00 00 00    LEA RDI,[RAX*0x8]                FUN_1402d9bd0
+1402d9c72  48 8D 3C C5 00 00 00 00    LEA RDI,[RAX*0x8]                FUN_1402d9bd0
+1402da01d  48 83 C7 08                ADD RDI,0x8                      FUN_1402d9dc0
+1402da021  48 83 C3 10                ADD RBX,0x10                     FUN_1402d9dc0
+1402da643  48 83 C7 08                ADD RDI,0x8                      FUN_1402d9dc0
+1402da647  48 83 C3 10                ADD RBX,0x10                     FUN_1402d9dc0
+1402dadf8  49 83 C6 08                ADD R14,0x8                      FUN_1402dac90
+1402dafac  49 83 C6 08                ADD R14,0x8                      FUN_1402dae40
+1402db721  48 83 C3 08                ADD RBX,0x8                      FUN_1402db6b0
+1402db771  48 83 C3 08                ADD RBX,0x8                      FUN_1402db6b0
+1402dc253  48 83 C3 08                ADD RBX,0x8                      FUN_1402dc1f0
+1402dc2f0  48 83 C3 08                ADD RBX,0x8                      FUN_1402dc1f0
+1402dc2fc  49 83 C7 10                ADD R15,0x10                     FUN_1402dc1f0
+1402dc339  48 83 C3 08                ADD RBX,0x8                      FUN_1402dc1f0
+1402dc369  48 83 C3 08                ADD RBX,0x8                      FUN_1402dc1f0
+1402dc546  C1 EB 03                   SHR EBX,0x3                      FUN_1402dc1f0
+1402dc64c  48 83 C3 08                ADD RBX,0x8                      uBattleUiMissionCommand__kill
+1402dc6a1  48 83 C3 08                ADD RBX,0x8                      uBattleUiMissionCommand__kill
+1402dc6f1  48 83 C3 08                ADD RBX,0x8                      uBattleUiMissionCommand__kill
+1402dc741  48 83 C3 08                ADD RBX,0x8                      uBattleUiMissionCommand__kill
+1402dcca1  48 83 C6 10                ADD RSI,0x10                     FUN_1402dc8b0
+1402dd599  48 83 C3 08                ADD RBX,0x8                      FUN_1402dd530
+1402dd5c8  48 83 C3 08                ADD RBX,0x8                      FUN_1402dd530
+1402dd5f4  48 83 C3 08                ADD RBX,0x8                      FUN_1402dd530
+1402dd664  C1 EB 03                   SHR EBX,0x3                      FUN_1402dd530
+1402dd876  48 83 C3 08                ADD RBX,0x8                      FUN_1402dd530
+1402dd93b  49 83 C7 08                ADD R15,0x8                      FUN_1402dd530
+1402dd9b1  49 83 C6 08                ADD R14,0x8                      FUN_1402dd530
+1402ddc23  48 83 C3 08                ADD RBX,0x8                      uBattleUiMissionList__kill
+1402ddc6c  48 83 C3 08                ADD RBX,0x8                      uBattleUiMissionList__kill
+1402ddcac  48 83 C3 08                ADD RBX,0x8                      uBattleUiMissionList__kill
+1402de2ad  49 83 C4 08                ADD R12,0x8                      FUN_1402dde80
+1402de2b1  48 83 C6 08                ADD RSI,0x8                      FUN_1402dde80
+1402de3bb  49 83 C7 08                ADD R15,0x8                      FUN_1402dde80
+1402de3bf  48 83 C3 08                ADD RBX,0x8                      FUN_1402dde80
+1402de81b  C0 E8 04                   SHR AL,0x4                       uBattleUiNaruhodo_vfn18
+1402de9a0  41 83 C4 08                ADD R12D,0x8                     uBattleUiNaruhodo__move
+1402deaa4  4A 8D 1C F3                LEA RBX,[RBX + R14*0x8]          ?
+1402e12fe  49 83 C6 08                ADD R14,0x8                      MtObject__proc_1270
+1402e1349  48 83 C7 08                ADD RDI,0x8                      MtObject__proc_1270
+1402e1b2c  48 83 C3 08                ADD RBX,0x8                      uBattleUiPause_vfn34
+1402e27c0  49 83 C7 08                ADD R15,0x8                      FUN_1402e2410
+1402e2996  48 83 C3 08                ADD RBX,0x8                      uBattleUiPause__kill
+1402e2c2d  48 83 C3 08                ADD RBX,0x8                      FUN_1402e2b90
+1402e324a  8D 14 D5 D8 FF FF FF       LEA EDX,[-0x28 + RDX*0x8]        FUN_1402e3210
+1402e328d  8D 14 D5 DB 00 00 00       LEA EDX,[0xdb + RDX*0x8]         FUN_1402e3210
+1402e34da  48 83 C7 08                ADD RDI,0x8                      FUN_1402e3210
+1402e4b94  C0 E8 04                   SHR AL,0x4                       uBattleUiPauseNetGallery__getFlagBit10
+1402e5756  48 83 C7 08                ADD RDI,0x8                      uBattleUiTraining_vfn18
+1402e5a52  49 83 C6 08                ADD R14,0x8                      FUN_1402e59a0
+1402e5d55  49 83 C6 08                ADD R14,0x8                      FUN_1402e59a0
+1402e86af  49 83 C6 08                ADD R14,0x8                      ?
+1402e9aa5  48 83 C3 08                ADD RBX,0x8                      FUN_1402e9a60
+1402e9af2  48 83 C3 08                ADD RBX,0x8                      FUN_1402e9a60
+1402e9b20  48 83 C3 08                ADD RBX,0x8                      FUN_1402e9a60
+1402e9b50  48 83 C3 08                ADD RBX,0x8                      FUN_1402e9a60
+1402e9b80  48 83 C3 08                ADD RBX,0x8                      FUN_1402e9a60
+1402e9bb0  48 83 C3 08                ADD RBX,0x8                      FUN_1402e9a60
+1402e9be0  48 83 C3 08                ADD RBX,0x8                      FUN_1402e9a60
+1402e9c07  48 83 C3 08                ADD RBX,0x8                      FUN_1402e9a60
+1402e9c30  48 83 C3 08                ADD RBX,0x8                      FUN_1402e9a60
+1402e9c57  48 83 C3 08                ADD RBX,0x8                      FUN_1402e9a60
+1402e9c82  48 83 C3 08                ADD RBX,0x8                      FUN_1402e9a60
+1402ed8aa  48 83 C3 08                ADD RBX,0x8                      uBattleUiTrainingAttack_vfn18
+1402ee331  48 83 C3 08                ADD RBX,0x8                      FUN_1402ee300
+1402f0b95  48 83 C3 08                ADD RBX,0x8                      uBtGaugeCardIcon__dtor_1
+1402f0ba3  49 83 C6 08                ADD R14,0x8                      uBtGaugeCardIcon__dtor_1
+1402f0ca4  C0 E8 04                   SHR AL,0x4                       uBtGaugeCardIcon_vfn18
+1402f115a  49 83 C7 08                ADD R15,0x8                      uBtGaugeCardIcon_vfn28
+1402f119d  49 83 C7 08                ADD R15,0x8                      uBtGaugeCardIcon_vfn28
+1402f11a1  48 83 C6 08                ADD RSI,0x8                      uBtGaugeCardIcon_vfn28
+1402f1cb9  41 83 E0 0F                AND R8D,0xf                      FUN_1402f1cb0
+1402f1cda  83 E0 0F                   AND EAX,0xf                      FUN_1402f1cb0
+1402f1dbc  83 E0 0F                   AND EAX,0xf                      FUN_1402f1da0
+1402f1e45  48 83 C3 08                ADD RBX,0x8                      uBtGaugeCardIcon__kill
+1402f1e53  49 83 C6 08                ADD R14,0x8                      uBtGaugeCardIcon__kill
+1402f1f4d  48 83 C7 08                ADD RDI,0x8                      uBtGaugeCardIcon_vfn17
+1402f1f51  48 83 C3 10                ADD RBX,0x10                     uBtGaugeCardIcon_vfn17
+1402f1fcd  83 E0 0F                   AND EAX,0xf                      FUN_1402f1fb0
+1402f200c  83 E0 0F                   AND EAX,0xf                      FUN_1402f1ff0
+1402f20bc  83 E0 0F                   AND EAX,0xf                      FUN_1402f20a0
+1402f20fc  83 E0 0F                   AND EAX,0xf                      FUN_1402f20e0
+1402f213d  83 E0 0F                   AND EAX,0xf                      FUN_1402f2120
+1402f232a  49 83 C4 08                ADD R12,0x8                      uBtGaugeCardIcon__setup
+1402f264d  C0 E8 04                   SHR AL,0x4                       uBtGaugeHc_vfn18
+1402f31b9  48 83 C3 08                ADD RBX,0x8                      uBtGaugeHc_vfn29
+1402f4765  48 83 C3 08                ADD RBX,0x8                      uBtGaugeLife__dtor_46D0
+1402f4a91  48 8D 04 CF                LEA RAX,[RDI + RCX*0x8]          ?
+1402f4cf8  C0 E8 04                   SHR AL,0x4                       uBtGaugeLife_vfn18
+1402f6be8  48 83 C7 08                ADD RDI,0x8                      ?
+1402f7313  48 8D 0C D7                LEA RCX,[RDI + RDX*0x8]          FUN_1402f7290
+1402f7a1f  48 83 C3 08                ADD RBX,0x8                      uBtGaugeLife__setup
+1402f843d  48 83 C3 08                ADD RBX,0x8                      FUN_1402f83c0
+1402fbd81  48 83 C6 08                ADD RSI,0x8                      FUN_1402fbce0
+1402fc4f6  C1 E8 03                   SHR EAX,0x3                      FUN_1402fc4f0
+1402fd832  48 8D 34 C3                LEA RSI,[RBX + RAX*0x8]          uEffect__pruneDeadAttachments_FD7C0
+1402fe472  48 83 C3 08                ADD RBX,0x8                      ?
+1402fe495  48 83 C3 08                ADD RBX,0x8                      ?
+1402fe4b8  48 83 C3 08                ADD RBX,0x8                      ?
+1402fe4d8  48 83 C3 08                ADD RBX,0x8                      ?
+1402fe7a9  48 83 C6 08                ADD RSI,0x8                      FUN_1402fe770
+1402fe7d3  48 83 C6 08                ADD RSI,0x8                      FUN_1402fe770
+1402fe7f8  48 83 C6 08                ADD RSI,0x8                      FUN_1402fe770
+1402fe81b  48 83 C3 08                ADD RBX,0x8                      FUN_1402fe770
+1402ff962  48 83 C3 08                ADD RBX,0x8                      ?
+1402fff52  C0 E8 04                   SHR AL,0x4                       uBtResultScoreEAOffline_vfn18
+1403003c0  48 83 C3 08                ADD RBX,0x8                      uBtResultScoreEarthAtk__dtor_1
+1403003e5  48 83 C3 08                ADD RBX,0x8                      uBtResultScoreEarthAtk__dtor_1
+1403023aa  48 8D 3C FE                LEA RDI,[RSI + RDI*0x8]          FUN_140302240
+140303379  49 83 C6 08                ADD R14,0x8                      FUN_140302240
+140304300  48 83 C7 08                ADD RDI,0x8                      uBtResultScoreEarthAtk__kill
+140304325  48 83 C7 08                ADD RDI,0x8                      uBtResultScoreEarthAtk__kill
+140304afe  48 83 C6 08                ADD RSI,0x8                      ?
+140304b02  48 83 C7 08                ADD RDI,0x8                      ?
+140304b38  48 83 C6 08                ADD RSI,0x8                      ?
+140304b3c  48 83 C7 08                ADD RDI,0x8                      ?
+140305b70  48 83 C3 08                ADD RBX,0x8                      uBtResultScoreFree__dtor_5B30
+140305b95  48 83 C3 08                ADD RBX,0x8                      uBtResultScoreFree__dtor_5B30
+140306331  49 83 C4 08                ADD R12,0x8                      ?
+140306ef0  48 83 C6 08                ADD RSI,0x8                      uBtResultScoreFree_vfn17
+140306ef4  48 83 C7 08                ADD RDI,0x8                      uBtResultScoreFree_vfn17
+140306f29  48 83 C6 08                ADD RSI,0x8                      uBtResultScoreFree_vfn17
+140306f2d  48 83 C7 08                ADD RDI,0x8                      uBtResultScoreFree_vfn17
+140307ed1  49 83 C5 08                ADD R13,0x8                      ?
+1403081f6  C1 EA 03                   SHR EDX,0x3                      uBtResultScoreFree__setup
+14030916b  48 83 C5 08                ADD RBP,0x8                      ?
+14030a0e0  48 83 C3 08                ADD RBX,0x8                      uBtResultScoreVersus__dtor_1
+14030a669  48 83 C6 10                ADD RSI,0x10                     uBtResultScoreVersus_vfn17
+14030a6fe  48 83 C6 08                ADD RSI,0x8                      uBtResultScoreVersus_vfn17
+14030a702  48 83 C7 08                ADD RDI,0x8                      uBtResultScoreVersus_vfn17
+14030ae1f  49 83 C5 08                ADD R13,0x8                      ?
+14030b0b0  48 83 C3 08                ADD RBX,0x8                      uBtScore__dtor_B070
+14030b1fa  48 83 C3 08                ADD RBX,0x8                      uBtScore_vfn18
+14030b222  48 83 C3 08                ADD RBX,0x8                      uBtScore_vfn18
+14030b756  49 83 C6 08                ADD R14,0x8                      uBtScore__setup
+14030c1b3  48 83 C3 08                ADD RBX,0x8                      FUN_14030bc50
+14030c6cc  48 83 C3 08                ADD RBX,0x8                      uBtSimpleLicense_vfn18
+14030c70b  48 83 C3 08                ADD RBX,0x8                      uBtSimpleLicense_vfn18
+14030cc8c  48 83 C3 08                ADD RBX,0x8                      uBtSimpleLicense__kill
+14030ccd0  48 83 C3 08                ADD RBX,0x8                      uBtSimpleLicense__kill
+14030ccf3  48 83 C3 08                ADD RBX,0x8                      uBtSimpleLicense__kill
+14030cd18  48 83 C3 08                ADD RBX,0x8                      uBtSimpleLicense__kill
+14030d1df  48 83 C6 08                ADD RSI,0x8                      ?
+14030d1ed  49 83 C4 08                ADD R12,0x8                      ?
+14030d586  48 83 C7 08                ADD RDI,0x8                      uBtSimpleLicense_vfn17
+14030d606  48 83 C7 08                ADD RDI,0x8                      uBtSimpleLicense_vfn17
+14030d67c  49 83 C7 08                ADD R15,0x8                      ?
+14030d935  48 83 C6 08                ADD RSI,0x8                      FUN_14030d900
+14030d95a  48 83 C6 08                ADD RSI,0x8                      FUN_14030d900
+14030d983  48 83 C3 08                ADD RBX,0x8                      FUN_14030d900
+14030dad9  48 83 C3 08                ADD RBX,0x8                      FUN_14030da90
+14030db99  48 83 C3 08                ADD RBX,0x8                      FUN_14030db10
+14030eca2  48 83 C6 10                ADD RSI,0x10                     FUN_14030eb40
+14030ed85  48 83 C6 10                ADD RSI,0x10                     FUN_14030eb40
+14030eddc  48 83 C7 10                ADD RDI,0x10                     FUN_14030eb40
+14030f82a  49 8D 1C CE                LEA RBX,[R14 + RCX*0x8]          FUN_14030f730
+14031066b  48 83 C3 08                ADD RBX,0x8                      uBtVsSpcCard_vfn18
+140310691  C0 E8 04                   SHR AL,0x4                       uBtVsSpcCard_vfn18
+1403108a6  49 8D 3C CF                LEA RDI,[R15 + RCX*0x8]          FUN_140310830
+140310943  48 83 C3 08                ADD RBX,0x8                      FUN_140310830
+140310ac0  48 83 C3 08                ADD RBX,0x8                      uBtVsSpcCard__kill
+140310af4  48 83 C3 08                ADD RBX,0x8                      uBtVsSpcCard__kill
+140310c3a  48 83 C3 08                ADD RBX,0x8                      uBtVsSpcCard_vfn17
+140310da8  48 83 C7 08                ADD RDI,0x8                      FUN_140310d50
+140310ed9  48 83 C3 08                ADD RBX,0x8                      FUN_140310ea0
+140311006  48 83 C3 08                ADD RBX,0x8                      FUN_140310f70
+1403111a9  48 83 C3 08                ADD RBX,0x8                      ?
+14031148f  49 83 C6 08                ADD R14,0x8                      aChrSelect__updateDeckCards_3112B0
+140311ed3  C1 FB 04                   SAR EBX,0x4                      uCreditMsg_vfn27
+140311f1a  48 83 C7 08                ADD RDI,0x8                      uCreditMsg_vfn27
+140311fcc  48 83 C3 08                ADD RBX,0x8                      uCreditMsg__kill
+140312039  48 83 C3 08                ADD RBX,0x8                      uCreditMsg__move
+1403120d9  C1 FA 04                   SAR EDX,0x4                      uCreditMsg_vfn29
+1403121e5  48 83 C7 08                ADD RDI,0x8                      ?
+140312880  48 83 C3 08                ADD RBX,0x8                      uCreditNames__kill
+1403128a3  48 83 C3 08                ADD RBX,0x8                      uCreditNames__kill
+140312909  48 83 C3 08                ADD RBX,0x8                      uCreditNames__move
+140314475  48 83 C7 08                ADD RDI,0x8                      FUN_140314330
+1403144d5  48 83 C7 08                ADD RDI,0x8                      FUN_140314330
+140314535  48 83 C7 08                ADD RDI,0x8                      FUN_140314330
+140314615  48 83 C7 08                ADD RDI,0x8                      FUN_140314330
+140314675  48 83 C7 08                ADD RDI,0x8                      FUN_140314330
+140314755  48 83 C7 08                ADD RDI,0x8                      FUN_140314330
+1403147b5  48 83 C3 08                ADD RBX,0x8                      FUN_140314330
+1403147f8  49 83 C6 08                ADD R14,0x8                      FUN_140314330
+140314fb4  48 83 C3 08                ADD RBX,0x8                      FUN_140314f80
+140315004  48 83 C3 08                ADD RBX,0x8                      FUN_140314fd0
+140315054  48 83 C3 08                ADD RBX,0x8                      FUN_140315020
+140315150  48 83 EC 08                SUB RSP,0x8                      FUN_140315150
+14031516e  48 83 C4 08                ADD RSP,0x8                      FUN_140315150
+1403151cf  48 83 C3 08                ADD RBX,0x8                      FUN_140315180
+14031523f  48 83 C3 08                ADD RBX,0x8                      FUN_1403151f0
+1403152af  48 83 C3 08                ADD RBX,0x8                      FUN_140315260
+140315300  48 83 C3 08                ADD RBX,0x8                      FUN_1403152d0
+140315350  48 83 C3 08                ADD RBX,0x8                      FUN_140315320
+1403153a0  48 83 C3 08                ADD RBX,0x8                      FUN_140315370
+14031593d  48 8D 1C C1                LEA RBX,[RCX + RAX*0x8]          FUN_140315920
+140315c0e  48 83 C0 08                ADD RAX,0x8                      FUN_140315be0
+140315e64  49 83 C1 08                ADD R9,0x8                       FUN_140315e30
+140315f3c  48 83 C3 08                ADD RBX,0x8                      FUN_140315ee0
+140315f5d  48 8D 1C C1                LEA RBX,[RCX + RAX*0x8]          FUN_140315ee0
+1403165f8  48 83 C7 08                ADD RDI,0x8                      FUN_1403165d0
+140316906  83 E2 0F                   AND EDX,0xf                      FUN_1403168e0
+140317265  48 83 C3 08                ADD RBX,0x8                      FUN_140317230
+1403172f5  48 83 C3 08                ADD RBX,0x8                      FUN_1403172c0
+14031770b  48 83 C3 08                ADD RBX,0x8                      FUN_140317680
+1403177b9  C1 EA 03                   SHR EDX,0x3                      FUN_140317680
+140318664  48 83 C7 08                ADD RDI,0x8                      uEarthAtkVingo__method_1403184f0
+1403186cb  48 83 C6 08                ADD RSI,0x8                      uEarthAtkVingo__method_1403184f0
+1403188e6  48 83 C1 08                ADD RCX,0x8                      FUN_1403188d0
+140318a3e  48 83 C6 08                ADD RSI,0x8                      FUN_1403189c0
+140318bbc  48 83 C6 08                ADD RSI,0x8                      FUN_140318b60
+140318e87  48 83 C6 08                ADD RSI,0x8                      uEarthAtkVingo__setup
+1403190ef  48 83 C7 08                ADD RDI,0x8                      FUN_140319080
+1403191e0  48 83 C7 08                ADD RDI,0x8                      FUN_140319120
+14031948a  48 83 C0 08                ADD RAX,0x8                      FUN_140319420
+140319774  48 83 C3 08                ADD RBX,0x8                      FUN_1403196e0
+140319e6d  48 83 C7 08                ADD RDI,0x8                      uEnding__kill
+140319f80  48 83 C7 08                ADD RDI,0x8                      uEnding__kill
+14031a323  48 83 C6 08                ADD RSI,0x8                      FUN_14031a240
+14031a327  48 83 C7 10                ADD RDI,0x10                     FUN_14031a240
+14031b206  49 83 C3 10                ADD R11,0x10                     FUN_14031b1c0
+14031b279  49 83 C1 10                ADD R9,0x10                      FUN_14031b1c0
+14031ba2a  49 83 C6 08                ADD R14,0x8                      uFinishScreen__move
+14031bbf1  48 83 C3 10                ADD RBX,0x10                     uFinishScreen__dtor_AA90_1
+14031c06e  48 83 C3 10                ADD RBX,0x10                     FUN_14031bfb0
+14031c2b7  48 83 C3 08                ADD RBX,0x8                      FUN_14031c270
+14031c541  48 83 C3 08                ADD RBX,0x8                      uLoading__kill
+14031c771  48 83 C7 08                ADD RDI,0x8                      ?
+14031c8f5  48 83 C7 08                ADD RDI,0x8                      FUN_14031c7d0
+14031c8f9  48 83 C3 10                ADD RBX,0x10                     FUN_14031c7d0
+14031cd2c  48 83 C3 08                ADD RBX,0x8                      FUN_14031cce0
+14031ce0c  48 83 C3 08                ADD RBX,0x8                      uSaveDataAccess__kill
+14031d133  48 83 C6 08                ADD RSI,0x8                      uSaveDataAccess__loadAssets
+14031d137  48 83 C7 10                ADD RDI,0x10                     uSaveDataAccess__loadAssets
+14031d759  48 83 C3 08                ADD RBX,0x8                      FUN_14031d6e0
+14031dd7e  48 83 C3 08                ADD RBX,0x8                      FUN_14031dc70
+14031de1d  48 83 C7 08                ADD RDI,0x8                      FUN_14031ddc0
+14031de76  48 83 C7 08                ADD RDI,0x8                      FUN_14031ddc0
+14031deae  48 83 C6 08                ADD RSI,0x8                      FUN_14031ddc0
+14031e1cd  49 83 C7 10                ADD R15,0x10                     FUN_14031ddc0
+14031e1d1  48 83 C7 08                ADD RDI,0x8                      FUN_14031ddc0
+14031e5db  48 83 C7 08                ADD RDI,0x8                      FUN_14031ddc0
+14031e601  49 83 C4 08                ADD R12,0x8                      FUN_14031ddc0
+14031e7a8  48 83 C7 08                ADD RDI,0x8                      FUN_14031e710
+14031e89f  48 83 C3 08                ADD RBX,0x8                      uSPCCard__kill
+14031e931  48 83 C7 08                ADD RDI,0x8                      uSPCCard__kill
+14031ea2e  48 83 C3 08                ADD RBX,0x8                      uSPCCard__kill
+14031ed62  49 83 C6 08                ADD R14,0x8                      FUN_14031eb10
+14031ed6a  48 83 C3 10                ADD RBX,0x10                     FUN_14031eb10
+14031f0c1  48 83 C7 08                ADD RDI,0x8                      FUN_14031eb10
+14031f0ca  49 83 C6 10                ADD R14,0x10                     FUN_14031eb10
+14031f152  48 83 C3 08                ADD RBX,0x8                      FUN_14031f130
+14031f362  48 83 C3 08                ADD RBX,0x8                      FUN_14031f320
+14031f895  49 83 C6 08                ADD R14,0x8                      FUN_14031f490
+14031fb27  48 83 C3 08                ADD RBX,0x8                      FUN_14031fae0
+14031fd44  48 83 C3 08                ADD RBX,0x8                      FUN_14031fd10
+14031ff43  48 83 C6 08                ADD RSI,0x8                      FUN_14031feb0
+14031ff47  48 83 C3 10                ADD RBX,0x10                     FUN_14031feb0
+1403203e7  49 83 C4 08                ADD R12,0x8                      FUN_140320290
+1403207eb  48 8D 0C CF                LEA RCX,[RDI + RCX*0x8]          FUN_140320780
+14032150a  48 83 C3 08                ADD RBX,0x8                      uUiChoiceWindow_vfn18
+14032197b  48 83 C3 08                ADD RBX,0x8                      uUiChoiceWindow_vfn27
+1403219bb  48 83 C3 08                ADD RBX,0x8                      uUiChoiceWindow_vfn27
+140321a54  49 83 C6 08                ADD R14,0x8                      uUiChoiceWindow_vfn27
+140321d50  48 83 C6 08                ADD RSI,0x8                      uUiChoiceWindow_vfn27
+140321d77  48 8D 1C C3                LEA RBX,[RBX + RAX*0x8]          uUiChoiceWindow_vfn27
+140321d8f  48 83 C3 08                ADD RBX,0x8                      uUiChoiceWindow_vfn27
+140321e41  48 83 C6 08                ADD RSI,0x8                      uUiChoiceWindow_vfn28
+140322241  48 83 C6 08                ADD RSI,0x8                      uUiChoiceWindow_vfn17
+140322245  48 83 C3 10                ADD RBX,0x10                     uUiChoiceWindow_vfn17
+1403223e1  48 83 C6 08                ADD RSI,0x8                      uUiChoiceWindow_vfn17
+140322cc7  48 83 C3 08                ADD RBX,0x8                      FUN_140322c80
+140324a10  C1 EA 04                   SHR EDX,0x4                      uUiErrorFade_vfn27
+140324a39  48 83 C3 08                ADD RBX,0x8                      uUiErrorFade_vfn27
+140327203  48 83 C3 08                ADD RBX,0x8                      uUiPageChange__dtor_1
+140327235  48 83 C3 08                ADD RBX,0x8                      uUiPageChange__dtor_1
+14032725d  48 83 C3 08                ADD RBX,0x8                      uUiPageChange__dtor_1
+140327285  48 83 C3 08                ADD RBX,0x8                      uUiPageChange__dtor_1
+140327407  C0 E8 04                   SHR AL,0x4                       uUiPageChange_vfn18
+140327ce5  48 83 C6 08                ADD RSI,0x8                      FUN_140327c40
+140327e10  48 83 C3 08                ADD RBX,0x8                      uUiPageChange__move
+140327e31  48 83 C3 08                ADD RBX,0x8                      uUiPageChange__move
+140327e5e  48 83 C3 08                ADD RBX,0x8                      uUiPageChange__move
+140328be5  48 8D 0C CB                LEA RCX,[RBX + RCX*0x8]          setter_140328bd0
+140328ce0  48 83 C3 08                ADD RBX,0x8                      uUiPageChange__setup
+140328d40  48 83 C3 08                ADD RBX,0x8                      uUiPageChange__setup
+140328da0  48 83 C3 08                ADD RBX,0x8                      uUiPageChange__setup
+14032964f  49 83 C6 10                ADD R14,0x10                     ?
+14032a34a  48 83 C3 08                ADD RBX,0x8                      uUiPopupWindow_vfn18
+14032ad23  48 83 C7 08                ADD RDI,0x8                      FUN_14032ac60
+14032ad83  48 83 C6 08                ADD RSI,0x8                      FUN_14032ac60
+14032b0a7  48 83 C3 08                ADD RBX,0x8                      FUN_14032ac60
+14032b14c  48 83 C3 08                ADD RBX,0x8                      FUN_14032ac60
+14032b176  48 83 C3 08                ADD RBX,0x8                      FUN_14032ac60
+14032b23f  48 83 C6 08                ADD RSI,0x8                      FUN_14032ac60
+14032cfea  48 83 C3 08                ADD RBX,0x8                      uUiRoomWatch_vfn18
+14032da32  48 8D 34 C5 00 00 00 00    LEA RSI,[RAX*0x8]                uUiScheduler__move
+14033040f  48 8D 0C C1                LEA RCX,[RCX + RAX*0x8]          uUiSdlAnimeFrame__getString_30400
+14033066a  48 8D 0C C1                LEA RCX,[RCX + RAX*0x8]          uUiSdlAnimeFrame__setString_30660
+14033241f  48 83 C6 10                ADD RSI,0x10                     ?
+140332ed0  48 83 C6 10                ADD RSI,0x10                     ?
+140332f0c  48 83 C6 10                ADD RSI,0x10                     ?
+140332f49  49 83 C7 10                ADD R15,0x10                     ?
